@@ -1,11 +1,21 @@
 <html>
+
   <head>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h1>YOUR NAME</h1>
-    <p>Welcome to my website!</p>
-    <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <form id="data-form">
+      <label>Name: <input type="text" name="name" required></label><br>
+      <label>Email: <input type="email" name="email" required></label><br>
+      <label>Favorite Color:
+        <select name="color">
+          <option>Red</option>
+          <option>Blue</option>
+          <option>Green</option>
+        </select>
+      </label><br>
+      <button type="submit">Download CSV</button>
+    </form>
   </body>
 
 </html>
